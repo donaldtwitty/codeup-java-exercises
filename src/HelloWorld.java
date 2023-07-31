@@ -42,14 +42,18 @@ public class HelloWorld {
 //        int y = 4;
 //        y *= x;
 
-        int x = 10;
-        int y = 2;
-        x /= y;
-        y -= x;
-        System.out.println(x);
-        System.out.println(y);
+//        int x = 10;
+//        int y = 2;
+//        x /= y;
+//        y -= x;
+//        System.out.println(x);
+//        System.out.println(y);
 
+//        byte exampleByte = -200;
 
+        byte exampleByte = 127;
+        exampleByte+=2;
+        System.out.println(exampleByte);
 
     }
 }
