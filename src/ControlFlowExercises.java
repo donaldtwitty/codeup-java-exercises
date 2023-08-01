@@ -95,7 +95,7 @@ public class ControlFlowExercises {
         char choice;
 
         do {
-            System.out.print("Please enter a numerical grade from 0 to 100: ");
+            System.out.print("Numerical grade from 0 to 100: ");
             int grade = scanner.nextInt();
 
             if (grade >= 97) {
