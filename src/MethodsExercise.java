@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class MethodsExercise {
 
     // Number 1 //
@@ -77,6 +75,7 @@ public class MethodsExercise {
 //            System.out.println("Multiplication with recursion: " + multiplicationWithRecursion(num1, num2));
 //        }
 //    }
+
     // Number 2 //
 //    public static int getInteger(int min, int max) {
 //    Scanner scanner = new Scanner(System.in);
@@ -122,29 +121,34 @@ public class MethodsExercise {
 //    }
 
     // Number 4 //
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int numSides;
-        do {
-            System.out.print("Enter the number of sides for the dice: ");
-            numSides = scanner.nextInt();
-            if (numSides <= 0) {
-                System.out.println("Invalid number of sides. Try again.");
-            }
-        } while (numSides <= 0);
-
-        boolean rollAgain = true;
-        while (rollAgain) {
-            int roll1 = rollDie(numSides);
-            int roll2 = rollDie(numSides);
-            System.out.printf("You rolled a %d and a %d.%n", roll1, roll2);
-
-            System.out.print("Do you want to roll the dice again? (y/n)");
-            String answer = scanner.next();
-            rollAgain = answer.equalsIgnoreCase("y");
-        }
-    }
-    private static int rollDie(int numSides) {
-        return (int) (Math.random() * numSides) + 1;
-    }
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        int numSides;
+//        do {
+//            System.out.print("Enter the number of sides for the dice: ");
+//            numSides = scanner.nextInt();
+//            if (numSides <= 0) {
+//                System.out.println("Invalid number of  " +
+//                        " sides. Try again.");
+//            }
+//        } while (numSides <= 0);
+//
+//        boolean rollAgain = true;
+//        while (rollAgain) {
+//            int roll1 = rollDie(numSides);
+//            int roll2 = rollDie(numSides);
+//            System.out.printf("You rolled a %d and a %d.%n", roll1, roll2);
+//
+//            System.out.print("Do you want to roll the dice again? (y/n)");
+//            String answer = scanner.next();
+//            rollAgain = answer.equalsIgnoreCase("y");
+//        }
+//    }
+//
+//    private static int rollDie(int numSides) {
+//        return (int) (Math.random() * numSides) + 1;
+//    }
 }
+
+    // Number 5 //
+
