@@ -144,12 +144,7 @@ public class MethodsExercise {
             rollAgain = answer.equalsIgnoreCase("y");
         }
     }
-
     private static int rollDie(int numSides) {
         return (int) (Math.random() * numSides) + 1;
     }
 }
-
-
-
-
