@@ -12,7 +12,5 @@ public class PersonTest {
 
         whatEver.setLastname("Jedi");
         System.out.println(whatEver.getLastname());
-
-
     }
 }
