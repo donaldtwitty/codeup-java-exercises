@@ -46,20 +46,20 @@ public class MethodPractice {
 //        return "Hi " + input;
 //    }
 
-    public static String sayName(String input1, String input2) {
-        return "Hi " + input1 + input2;
-    }
-
+//    public static String sayName(String input1, String input2) {
+//        return "Hi " + input1 + input2;
+//    }
+//
+////    public static void main(String[] args) {
+////        String message = sayName("Donald");
+////        System.out.println(message);
+////    }
+////}
+//
 //    public static void main(String[] args) {
-//        String message = sayName("Donald");
+//        String message = sayName("Donald ", "Twitty");
 //        System.out.println(message);
 //    }
 //}
-
-    public static void main(String[] args) {
-        String message = sayName("Donald ", "Twitty");
-        System.out.println(message);
-    }
-}
-
 // TODO: overload the math exercises from the curriculum exercise to work with both integers and doubles
+}
