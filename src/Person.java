@@ -1,36 +1,27 @@
 // Object Basics Exercise //
 public class Person {
-    private String firstname;
-    private String lastname;
+    private String name;
 //    private String sayHello;
 
     //Getters//
-    public String getFirstname() {
-        return this.firstname;
+    public String getName() {
+        return this.name;
     }
 
-    public String getLastname() {
-        return this.lastname;
-    }
 
     //Setters//
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setName(String name) {
+        this.name = name;
     }
 
     //Other Method //
     public void sayHello() {
-        System.out.printf("Greetings, my name is %s %s %n", this.firstname, this.lastname);
+        System.out.printf("Greetings, my name is %s %n", this.name);
     }
 
     // Constructor //
-    public Person(String firstname, String lastname) {
-        this.firstname = firstname;
-        this.lastname = lastname;
+    public Person(String name) {
+        this.name = name;
 
     }
 }
