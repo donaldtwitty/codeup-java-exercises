@@ -5,13 +5,15 @@ import java.util.Scanner;
 public class Input {
     private Scanner scanner;
 
+    //Constructors//
     public Input() {
         this.scanner = new Scanner(System.in);
     }
 
+    //Instance Methods//
     public String getString(String prompt) { //string prompt is bonus//
         System.out.print(prompt);
-        return scanner.nextLine();
+        return this.scanner.nextLine();
     }
 
     public boolean yesNo(String prompt) { //string prompt is bonus//
