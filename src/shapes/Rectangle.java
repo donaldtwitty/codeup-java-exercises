@@ -13,7 +13,7 @@
 //    }
 //
 //    public double getPerimeter() {
-//        return 2 * (length + width);
+//        return 2 * (this.length + this.width);
 //    }
 //}
 
